@@ -1,0 +1,155 @@
+.container{ 
+    background-color: white;
+}
+.navbar {
+    background-color: pink;
+}
+
+.nav-link {
+    color: pink ;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.nav-link:hover {
+    color: #ff4da6 ;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url('https://i.pinimg.com/1200x/38/47/3e/38473e68da27ca4ec8069008698ae7de.jpg') center/cover no-repeat;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.card-title{
+    color: #eb2086;
+}
+
+.hero1{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url('https://www.tourmag.com/photo/art/grande/76836533-55389305.jpg?v=1700573972') center/cover no-repeat;
+    height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+.hero h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.section-title{
+    color:#ff4da6;
+    font-weight:bold;
+    margin-bottom:20px;
+    text-align: center
+}
+
+.service-card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+.price{
+    font-weight:bold;
+    color:#ff1493;
+}
+
+footer{
+    background:#222;
+    color:white;
+}
+
+
+.hero2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://i.pinimg.com/1200x/c6/3a/73/c63a735db9871fc33372569ee8cfc6a6.jpg') center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.travel-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.travel-card img {
+    height: 260px;
+    object-fit: cover;
+}
+.travel-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+.info-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.hero3{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('https://i.pinimg.com/1200x/38/47/3e/38473e68da27ca4ec8069008698ae7de.jpg') center/cover no-repeat;
+    height:50vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:white;
+}
+
+.contact-form{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+.form-control{
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.select{
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.textarea{
+    border-radius:10px;
+    margin-bottom:15px;
+}
+.btn-custom{
+    background:#ff4da6;
+    color:white;
+    border-radius:30px;
+    padding:10px 30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+.btn-custom:hover{
+    background:#e60073;
+}
+.info-box{
+    background:#fff0f6;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+.info-box strong{
+    color:#ff4da6;
+}
+
