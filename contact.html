@@ -1,75 +1,73 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<title>Agence.I/Y - Voyage</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <link rel="stylesheet" href="projet.css">
+    <meta charset="UTF-8">
+    <title>Agence.I/Y - Voyage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="projet.css">
 </head>
-
 <body>
-<nav class="navbar navbar-expand-lg shadow-sm">
-<div class="container">
-<img src="https://i.pinimg.com/1200x/c6/73/30/c673308800bb2b1b7895e7f14f2a41d1.jpg" width="70" class="rounded-pill">
-<ul class="navbar-nav mx-auto">
-<li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-<li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-<li class="nav-item"><a class="nav-link" href="galerie.html">Destinations</a></li>
-<li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-</ul>
-</div>
-</nav>
-<section class="hero3">
-<div>
-<h1>Contactez-nous</h1>
-<p class="lead">Votre aventure commence par un message</p>
-</div>
-</section>
-
-<section class="container my-5">
-    <div class="row g-3 justify-content-center">
-        <div class="col-md-6">
-            <div class="contact-form">
-                <h2 class="section-title text-center">Envoyez-nous un message</h2>
-                <form>
-                    <input type="text" class="form-control" placeholder="Entrez votre Nom">
-                    <input type="text" class="form-control" placeholder="Entrez votre Prénom">
-                    <input type="email" class="form-control" placeholder="Entrez votre Email">
-                    <input type="tel" class="form-control" placeholder="Entrez votre numéro Téléphone">
-                    <select class="form-control">
-                        <option>Réservation</option>
-                        <option>Information</option>
-                        <option>Réclamation</option>
-                    </select>
-                    <textarea class="form-control" placeholder="Votre message..."></textarea>
-                    <div class="text-center mt-3">
-                        <button class="btn btn-custom">Envoyer</button>
-                    </div>
-                </form>
+    <nav class="navbar navbar-expand-lg shadow-sm animate__animated animate__fadeInDown">
+        <div class="container">
+            <img src="https://i.pinimg.com/1200x/c6/73/30/c673308800bb2b1b7895e7f14f2a41d1.jpg" width="70" class="rounded-pill">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="galerie.html">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero3 animate__animated animate__fadeInUp">
+        <div>
+            <h1>Contactez-nous</h1>
+            <p class="lead">Votre aventure commence par un message</p>
+        </div>
+    </section>
+    <section class="container my-5">
+        <div class="row g-3 justify-content-center">
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <h2 class="section-title text-center">Envoyez-nous un message</h2>
+                    <form>
+                        <label for="nom">Nom:</label>
+                        <input type="text" name="nom" class="form-control" placeholder="Entrez votre Nom">
+                        <label for="prénom">Prénom:</label>
+                        <input type="text" name="prénom" class="form-control" placeholder="Entrez votre Prénom">
+                        <label for="mail">Email:</label>
+                        <input type="email" name="mail" class="form-control" placeholder="Entrez votre Email">
+                        <label for="tele">Télephone:</label>
+                        <input type="tel" name="tele" class="form-control" placeholder="Entrez votre numéro Téléphone">
+                        <label>Sujet:</label>
+                        <select class="form-control">
+                            <option>Réservation</option>
+                            <option>Information</option>
+                            <option>Réclamation</option>
+                        </select>
+                        <label for="msg">Message:</label>
+                        <textarea class="form-control"name="msg" placeholder="Votre message..."></textarea>
+                        <div class="text-center mt-3">
+                            <button class="btn btn-custom">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="info-box">
+                <h2 class="section-title text-center">Informations pratiques</h2>
+                <ul class="list-unstyled text-center">
+                    <li><strong>Adresse :</strong> Rue de Maarif, Casablanca, Maroc</li>
+                    <li><strong>Téléphone :</strong> +212 06 84 19 15 13</li>
+                    <li><strong>Email :</strong> email@agenceI/Y.com</li>
+                    <li><strong>Horaires :</strong>Lundi à Vendredi : 8h30 - 18h /Samedi : 9h - 12h</li>
+                </ul>
             </div>
         </div>
-
-
-<div class="info-box">
-<h2 class="section-title text-center">Informations pratiques</h2>
-<ul class="list-unstyled text-center">
-<li><strong>Adresse :</strong> Rue de Maarif, Casablanca, Maroc</li>
-<li><strong>Téléphone :</strong> +212 06 84 19 15 13</li>
-<li><strong>Email :</strong> email@agenceI/Y.com</li>
-<li><strong>Horaires :</strong>Lundi à Vendredi : 8h30 - 18h /Samedi : 9h - 12h</li>
-</ul>
-</div>
-</div>
-
-</div>
-</section>
-
-
-<footer class="text-center p-3">
-© 2026 Morocco Agence.I/Y
-</footer>
-
+    </section>
+    <footer class="text-center p-3"> 
+        © 2026 Morocco Agence.I/Y 
+    </footer>
 </body>
 </html>
